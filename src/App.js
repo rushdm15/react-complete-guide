@@ -3,7 +3,7 @@ import React from "react";
 import NewExpense from "./components/NewExpense/NewExpense";
 import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: "e1",
@@ -45,7 +45,7 @@ function App() {
       <Expenses items={expenses} />
     </div>
   );
-}
+};
 
 export default App;
 
